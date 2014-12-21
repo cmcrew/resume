@@ -1,0 +1,71 @@
+/*------------------------------------*\
+    $TABLE OF CONTENTS 
+    based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
+\*------------------------------------*/
+/**
+ * VENDOR FILES...........................Bourbon
+ * VARIABLES..............................Declarations of Sass variables 
+ * .....Fonts
+ * .....Colors
+ * .....Layout
+ * .....Defaults
+ * .....Breakpoints
+ * MIXINS.................................Sass mixins 
+ * GLOBAL.................................Sass mixins 
+ */
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* COLORS */
+* {
+  font-family: "Lato", sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Comfortaa", cursive; }
+
+h1 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #7CEBEB;
+  width: 50%; }
+
+h2, h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.4);
+  width: 50%; }
+
+.container {
+  max-width: 72em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container .main {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .container .main:last-child {
+      margin-right: 0; }
+  .container .secondary {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .container .secondary:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */

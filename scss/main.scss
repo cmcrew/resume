@@ -1,0 +1,33 @@
+* {
+  font-family: $font;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $heading-font;
+}
+
+h1 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid $blue;
+  width: 50%;
+}
+h2, h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba($gray, 0.4);
+  width: 50%;
+}
+
+.container {
+  @include outer-container();
+  padding-top: 2em;
+
+  .main {
+    @include span-columns(8);
+  }
+
+  .secondary {
+    @include span-columns(4);
+    
+  }
+  
+}

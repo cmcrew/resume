@@ -1,0 +1,23 @@
+
+/*------------------------------------*\
+    $TABLE OF CONTENTS 
+    based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
+\*------------------------------------*/
+/**
+ * VENDOR FILES...........................Bourbon
+ * VARIABLES..............................Declarations of Sass variables 
+ * .....Fonts
+ * .....Colors
+ * .....Layout
+ * .....Defaults
+ * .....Breakpoints
+ * MIXINS.................................Sass mixins 
+ * GLOBAL.................................Sass mixins 
+ */
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+@import "scss/variables";
+@import "scss/main";
+// @import "scss/mixins";
