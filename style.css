@@ -39,33 +39,68 @@ h1 {
   border-bottom: 2px solid #7CEBEB;
   width: 50%; }
 
-h2, h3 {
+h2 {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
   width: 50%; }
 
+h3 {
+  margin: 1em 0 0; }
+  h3:before {
+    content: "\25CF";
+    display: inline-block;
+    background: #fff;
+    font-size: 28px;
+    line-height: 0;
+    margin: 0 15px 0 -35px;
+    color: #7CEBEB;
+    border: 1px solid #666;
+    border-radius: 50%;
+    padding: 7px 1px 10px 1px; }
+
+p {
+  font-size: 1em;
+  margin: 0.5em 0;
+  color: #231f20; }
+
 .container {
   max-width: 72em;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 2em; }
+  margin-right: auto; }
   .container:after {
     content: "";
     display: table;
     clear: both; }
+  .container h2 {
+    margin-left: 1.5em; }
+  .container section {
+    border-left: 1px solid #666;
+    padding-left: 1.5em; }
   .container .main {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 57.35098%;
+    padding-right: 5em; }
     .container .main:last-child {
       margin-right: 0; }
+    .container .main article {
+      margin-bottom: 2em; }
+    .container .main .subhead {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      line-height: 1.4; }
+    .container .main .regular {
+      font-size: 1.0em;
+      line-height: 1.2; }
   .container .secondary {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 40.29137%; }
     .container .secondary:last-child {
       margin-right: 0; }
+  .container .em {
+    font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */
