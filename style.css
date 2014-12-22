@@ -88,11 +88,14 @@ header p {
 h1 + p {
   font-size: 1.3em; }
 
+header {
+  margin-bottom: 2em; }
+
 .container {
   max-width: 72em;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 10px 1px #666;
+  box-shadow: 0 1px 10px 1px #666;
   background: white;
   padding: 1em 4em; }
   .container:after {
@@ -101,6 +104,7 @@ h1 + p {
     clear: both; }
   .container h2 {
     margin-bottom: 0;
+    margin-top: 0;
     margin-left: 1.5em; }
   .container .main {
     float: left;
