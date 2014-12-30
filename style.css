@@ -41,8 +41,8 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   background-color: #fff;
-  background-image: -webkit-linear-gradient(#fff 0%, #fff 50%, #fff 95%, #7CEBEB 100%);
-  background-image: linear-gradient(#fff 0%, #fff 50%, #fff 95%, #7CEBEB 100%);
+  background-image: -webkit-linear-gradient(#fff 0%, #fff 50%, #fff 95%, #55C2E4 100%);
+  background-image: linear-gradient(#fff 0%, #fff 50%, #fff 95%, #55C2E4 100%);
   padding-bottom: 5px;
   width: 50%;
   font-size: 2.5em;
@@ -66,7 +66,7 @@ h3 {
     font-size: 24px;
     line-height: 0;
     margin: 0 17px 0 -35px;
-    color: #7CEBEB;
+    color: #55C2E4;
     border: 1px solid #666;
     border-radius: 50%;
     padding: 7px 1px 10px 1px; }
@@ -78,7 +78,7 @@ p {
   color: #231f20; }
 
 .dot {
-  color: #7CEBEB;
+  color: #55C2E4;
   padding: 0 0.5em; }
 
 header p {
@@ -144,7 +144,7 @@ header {
         text-indent: -1em; }
         .container .secondary ul li:before {
           content: "•";
-          color: #7CEBEB;
+          color: #55C2E4;
           margin-right: 1em; }
   .container .em {
     font-style: italic;
