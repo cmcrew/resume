@@ -1,0 +1,12 @@
+@media print {
+  * {
+    font-size: 11px;
+  }
+  .container {
+    box-shadow: none;
+
+    .main section {
+      padding-left: 2.2em;
+    }
+  }
+}
